@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb  5 21:28:07 2020
+
+@author: bryan
+"""
+
+import random as rd
+
+class Cards():
+    def __init__(self,Suit,Rank,Points):
+        self.Suit = Suit
+        self.Rank = Rank
+        self.Points = Points 
+        
+        
+     def create_Card():
+         Suit =("Spade","Club","Diamond","Heart")
+        Rank =("Ace","TWo","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Jack","Queen","King") 
+        
+            for suit in Suit:
+                for card in Rank:
+                    print("{}_of_{}".format(suit,card))
